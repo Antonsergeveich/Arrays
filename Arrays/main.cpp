@@ -10,7 +10,7 @@ void main()
 	cout << " ¬ведите значени€ элементов массива: ";
 	for (int i = 0; i < SIZE; i++)
 	{
-		cin >> arr[i];
+		cin >> arr[i]; 
 	}
 	for (int i = 0; i < SIZE; i++)
 	{
