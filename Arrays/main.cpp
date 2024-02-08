@@ -1,12 +1,13 @@
 #include<iostream>
 using namespace std;
-
+//#define ONE
 void main()
 {
 	setlocale(LC_ALL, "");
 	cout << "Hello Arrays" << endl;
+#ifdef ONE
 	const int SIZE = 5;
-    int arr[SIZE] = {};
+	int arr[SIZE] = {};
 	//вывод значений элементов массива с клавиатуры
 	cout << "¬ведите значени€ элементов массива: ";
 	for (int i = 0; i < SIZE; i++)
@@ -18,13 +19,13 @@ void main()
 	cout << "Ёлементы массива в пр€мом пор€дке: ";
 	for (int i = 0; i < SIZE; i++)
 	{
-	    cout << arr[i] << "\t";
+		cout << arr[i] << "\t";
 	}
 	cout << endl;
 	cout << endl;
 	//вывод элементов массива в обратном пор€дке
 	cout << "Ёлементы массива в обратном пор€дке: ";
-	for (int i = SIZE-1; i != -1; i--)
+	for (int i = SIZE - 1; i != -1; i--)
 	{
 		cout << arr[i] << "\t";
 	}
@@ -34,7 +35,7 @@ void main()
 	int sum = 0;
 	for (int i = 0; i < SIZE; i++)
 	{
-	    sum = sum + arr[i];
+		sum = sum + arr[i];
 	}
 	cout << "—умма всех элементов массива: " << sum << endl;
 	cout << endl;
@@ -74,4 +75,6 @@ void main()
 	}
 	cout << "Ёлемент массива с наибольшим значением: " << x << "\t";
 	cout << endl;
+#endif 
+
 }
