@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
-//#define ONE
+using std::cout;
+#define ONE
 void main()
 {
 	setlocale(LC_ALL, "");

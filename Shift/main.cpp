@@ -16,7 +16,7 @@ void main()
 		}
 		for (int i = 0; i <= SIZE - 1; i++)
 		{
-			cout << arr[i] << "\t";
+			//cout << arr[i] << "\t";
 			arr[i] = arr[(i + n) % SIZE];
 		}
 			cout << endl;
