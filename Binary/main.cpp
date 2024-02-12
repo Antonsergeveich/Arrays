@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include "main.h"
 using namespace std;
 
@@ -6,7 +6,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int chislo = 0, x = 0, c = 0, y = 0, n = 0; 
-    cout << "Ââåäèòå ÷èñëî: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
 	cin >> chislo;
 	x = chislo;
 	while (x >= 1)

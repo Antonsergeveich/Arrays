@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 void main()
@@ -7,7 +7,7 @@ void main()
 	cout << endl;
 	const int SIZE = 10;
 	int arr[SIZE] = {0,1,1,2,3,5,8,13,21,34};
-	int n = 1; // íà ñêîëüêî ýëåìåíòîâ ñäâèãàåì ìàññèâ
+	int n = 1; // Ð½Ð° ÑÐºÐ¾Ð»ÑŒÐºÐ¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² ÑÐ´Ð²Ð¸Ð³Ð°ÐµÐ¼ Ð¼Ð°ÑÑÐ¸Ð²
 	for (int i = 0; i < SIZE ; i++)
 	{
 		for (int i = 0; i < SIZE; i++)
