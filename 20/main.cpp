@@ -15,6 +15,9 @@
 //#define FIFTEEN
 //#define SIXTEEN
 //#define SEVENTEEN
+//#define EIGHTEEN
+//#define NINETEEN
+//define TWENTY
 #ifdef ONE
 #include<iostream>
 using namespace std;
@@ -835,3 +838,147 @@ void main()
 	cout << "Максимальное значение элементов массива: " << max << endl;
 }
 #endif // SEVENTEEN
+#ifdef EIGHTEEN
+#include<iostream>
+using namespace std;
+using std::cout;
+using std::cin;
+using std::endl;
+void main()
+{
+	cout << "Hello Arrays" << endl;
+	setlocale(LC_ALL, "");
+	const int SIZE = 5;
+	int arr[SIZE] = {};
+	cout << "Введите элементы массива: ";
+	for (int i = 0; i < SIZE; i++)
+	{
+		cin >> arr[i];
+	}
+	cout << endl;
+	cout << "Элеменмты массива в прямом порядке: ";
+	for (int i = 0; i < SIZE; i++)
+	{
+		cout << arr[i] << "\t";
+	}
+	cout << endl;
+	cout << "Элементы массива в обратном порядке: ";
+	for (int i = SIZE - 1; i >= 0; i--)
+	{
+		cout << arr[i] << "\t";
+	}
+	cout << endl;
+	int sum = 0;
+	for (int i = 0; i < SIZE; i++)
+	{
+		sum = sum + arr[i];
+	}
+	cout << "Сумма всех элементов массива: " << sum << endl;
+	cout << "Среднее арифметическое всех элементов массива: " << (double)sum / SIZE << endl;
+	int min, max;
+	min = max = arr[0];
+	for (int i = 0; i < SIZE; i++)
+	{
+		if (arr[i] < min)min = arr[i];
+		if (arr[i] > max)max = arr[i];
+	}
+	cout << "Минимальный элемент массива: " << min << endl;
+	cout << "Максимальный элемент массива: " << max << endl;
+}
+#endif // EIGHTEEN
+#ifdef NINETEEN
+#include<iostream>
+using namespace std;
+using std::cout;
+using std::cin;
+using std::endl;
+void main()
+{
+	cout << "Hello Arrays" << endl;
+	setlocale(LC_ALL, "");
+	const int SIZE = 5;
+	int arr[SIZE] = {};
+	cout << "Введите элементы массива: ";
+	for (int i = 0; i < SIZE; i++)
+	{
+		cin >> arr[i];
+	}
+	cout << endl;
+	cout << "Элементы массива в прямом порядке: ";
+	for (int i = 0; i < SIZE; i++)
+	{
+		cout << arr[i] << "\t";
+	}
+	cout << endl;
+	cout << "Элементы массива в обратном порядке: ";
+	for (int i = SIZE - 1; i >= 0; i--)
+	{
+		cout << arr[i] << "\t";
+	}
+	cout << endl;
+	int sum = 0;
+	for (int i = 0; i < SIZE; i++)
+	{
+		sum = sum + arr[i];
+	}
+	cout << "Сумма всех элементов массива: " << sum << endl;
+	cout << "Среднее арифметическое всех элементов массива: " << (double)sum / SIZE << endl;
+	int min, max;
+	min = max = arr[0];
+	for (int i = 0; i < SIZE; i++)
+	{
+		if (arr[i] < min)min = arr[i];
+		if (arr[i] > max)max = arr[i];
+	}
+	cout << "Минимальное значение элементов массива: " << min << endl;
+	cout << "Максимальное значение элементов массива: " << max << endl;
+}
+#endif // NINETEEN
+#ifdef TWENTY
+#include<iostream>
+using namespace std;
+using std::cout;
+using std::cin;
+using std::endl;
+void main()
+{
+	cout << "Hello Arrays" << endl;
+	setlocale(LC_ALL, "");
+	const int SIZE = 5;
+	int arr[SIZE] = {};
+	cout << "Введите элементы массива: ";
+	for (int i = 0; i < SIZE; i++)
+	{
+		cin >> arr[i];
+	}
+	cout << endl;
+	cout << "Элементы массива в прямом порядке: ";
+	for (int i = 0; i < SIZE; i++)
+	{
+		cout << arr[i] << "\t";
+	}
+	cout << endl;
+	cout << "Элементы массива в обратном порядке: ";
+	for (int i = SIZE - 1; i >= 0; i--)
+	{
+		cout << arr[i] << "\t";
+	}
+	cout << endl;
+	int sum = 0;
+	for (int i = 0; i < SIZE; i++)
+	{
+		sum = sum + arr[i];
+	}
+	cout << "Сумма всех элементов массива: " << sum << endl;
+	cout << "Среднее арифметическое всех элементов массива:" << (double)sum / SIZE << endl;
+	int min, max;
+	min = max = arr[0];
+	for (int i = 0; i < SIZE; i++)
+	{
+		if (arr[i] < min)min = arr[i];
+		if (arr[i] > max)max = arr[i];
+	}
+	cout << "Минимальное значение элементов массива: " << min << endl;
+	cout << "Максимальное значение элементов массива: " << max << endl;
+}
+#endif // TWENTY
