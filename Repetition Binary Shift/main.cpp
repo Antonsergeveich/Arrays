@@ -1,4 +1,4 @@
-//#define ONE
+п»ї//#define ONE
 //#define TWO
 //#define THREE
 //#define FOUR
@@ -22,16 +22,16 @@ using std::endl;
 void main()
 {
 	setlocale(LC_ALL, "");
-	int decimal; //двоичное число
-	cout << "Введите десятичное число: "; cin >> decimal;
+	int decimal; //РґРІРѕРёС‡РЅРѕРµ С‡РёСЃР»Рѕ
+	cout << "Р’РІРµРґРёС‚Рµ РґРµСЃСЏС‚РёС‡РЅРѕРµ С‡РёСЃР»Рѕ: "; cin >> decimal;
 	const int n = 32;
-	bool bin[n] = {}; //этот массив будет хранить разряды двоичного числа
+	bool bin[n] = {}; //СЌС‚РѕС‚ РјР°СЃСЃРёРІ Р±СѓРґРµС‚ С…СЂР°РЅРёС‚СЊ СЂР°Р·СЂСЏРґС‹ РґРІРѕРёС‡РЅРѕРіРѕ С‡РёСЃР»Р°
 	int i = 0;
 	while (decimal > 0)
 	{
-		bin[i] = decimal % 2; // получаем младший разряд двоичного числа
-		i++;// переходим к следующему разряду
-		decimal /= 2; //убираем младший двоичный разряд из числа
+		bin[i] = decimal % 2; // РїРѕР»СѓС‡Р°РµРј РјР»Р°РґС€РёР№ СЂР°Р·СЂСЏРґ РґРІРѕРёС‡РЅРѕРіРѕ С‡РёСЃР»Р°
+		i++;// РїРµСЂРµС…РѕРґРёРј Рє СЃР»РµРґСѓСЋС‰РµРјСѓ СЂР°Р·СЂСЏРґСѓ
+		decimal /= 2; //СѓР±РёСЂР°РµРј РјР»Р°РґС€РёР№ РґРІРѕРёС‡РЅС‹Р№ СЂР°Р·СЂСЏРґ РёР· С‡РёСЃР»Р°
 	}
 	for (--i; i >= 0; i--)
 	{
@@ -56,7 +56,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int decimal;
-	cout << "Введите десятичное число: "; cin >> decimal;
+	cout << "Р’РІРµРґРёС‚Рµ РґРµСЃСЏС‚РёС‡РЅРѕРµ С‡РёСЃР»Рѕ: "; cin >> decimal;
 	const int n = 32;
 	bool bin[n] = {};
 	int i = 0;
@@ -89,7 +89,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int decimal;
-	cout << "Введите десятичное число: "; cin >> decimal;
+	cout << "Р’РІРµРґРёС‚Рµ РґРµСЃСЏС‚РёС‡РЅРѕРµ С‡РёСЃР»Рѕ: "; cin >> decimal;
 	const int n = 32;
 	bool bin[n] = {};
 	int i = 0;
@@ -122,7 +122,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int decimal;
-	cout << "Введите десятичное число: "; cin >> decimal;
+	cout << "Р’РІРµРґРёС‚Рµ РґРµСЃСЏС‚РёС‡РЅРѕРµ С‡РёСЃР»Рѕ: "; cin >> decimal;
 	const int n = 32;
 	bool bin[n] = {};
 	int i = 0;
@@ -155,7 +155,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int decimal;
-	cout << "Введите десятичное число: "; cin >> decimal;
+	cout << "Р’РІРµРґРёС‚Рµ РґРµСЃСЏС‚РёС‡РЅРѕРµ С‡РёСЃР»Рѕ: "; cin >> decimal;
 	const int n = 32;
 	bool bin[n] = {};
 	int i = 0;
@@ -187,7 +187,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int decimal;
-	cout << "Введите десятичное число: "; cin >> decimal;
+	cout << "Р’РІРµРґРёС‚Рµ РґРµСЃСЏС‚РёС‡РЅРѕРµ С‡РёСЃР»Рѕ: "; cin >> decimal;
 	const int n = 32;
 	bool bin[n] = {};
 	int i = 0;
@@ -220,7 +220,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int decimal;
-	cout << "Введите десятичное число: "; cin >> decimal;
+	cout << "Р’РІРµРґРёС‚Рµ РґРµСЃСЏС‚РёС‡РЅРѕРµ С‡РёСЃР»Рѕ: "; cin >> decimal;
 	const int n = 32;
 	bool bin[n] = {};
 	int i = 0;
@@ -252,7 +252,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int decimal;
-	cout << "Ввудите десятичное число: "; cin >> decimal;
+	cout << "Р’РІСѓРґРёС‚Рµ РґРµСЃСЏС‚РёС‡РЅРѕРµ С‡РёСЃР»Рѕ: "; cin >> decimal;
 	const int n = 32;
 	bool bin[n] = {};
 	int i = 0;
@@ -283,7 +283,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int decimal;
-	cout << "Введите десятичное число: "; cin >> decimal;
+	cout << "Р’РІРµРґРёС‚Рµ РґРµСЃСЏС‚РёС‡РЅРѕРµ С‡РёСЃР»Рѕ: "; cin >> decimal;
 	const int n = 32;
 	bool bin[n] = {};
 	int i = 0;
@@ -314,7 +314,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int decimal;
-	cout << "Введите десятичное число: "; cin >> decimal;
+	cout << "Р’РІРµРґРёС‚Рµ РґРµСЃСЏС‚РёС‡РЅРѕРµ С‡РёСЃР»Рѕ: "; cin >> decimal;
 	const int n = 32;
 	bool bin[n] = {};
 	int i = 0;
@@ -345,7 +345,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int decimal;
-	cout << "Введите десятичное число: "; cin >> decimal;
+	cout << "Р’РІРµРґРёС‚Рµ РґРµСЃСЏС‚РёС‡РЅРѕРµ С‡РёСЃР»Рѕ: "; cin >> decimal;
 	const int n = 32;
 	bool bin[n] = {};
 	int i = 0;
@@ -376,7 +376,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int decimal;
-	cout << "Введите десятичное число: "; cin >> decimal;
+	cout << "Р’РІРµРґРёС‚Рµ РґРµСЃСЏС‚РёС‡РЅРѕРµ С‡РёСЃР»Рѕ: "; cin >> decimal;
 	const int n = 32;
 	bool bin[n] = {};
 	int i = 0;
@@ -407,7 +407,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int decimal;
-	cout << "Введите десятичное число: "; cin >> decimal;
+	cout << "Р’РІРµРґРёС‚Рµ РґРµСЃСЏС‚РёС‡РЅРѕРµ С‡РёСЃР»Рѕ: "; cin >> decimal;
 	const int n = 32;
 	bool bin[n] = {};
 	int i = 0;
@@ -438,7 +438,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int decimal;
-	cout << "Введите десятичное число: "; cin >> decimal;
+	cout << "Р’РІРµРґРёС‚Рµ РґРµСЃСЏС‚РёС‡РЅРѕРµ С‡РёСЃР»Рѕ: "; cin >> decimal;
 	const int n = 32;
 	bool bin[n] = {};
 	int i = 0;
@@ -469,7 +469,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int decimal;
-	cout << "Введите десятичное число: "; cin >> decimal;
+	cout << "Р’РІРµРґРёС‚Рµ РґРµСЃСЏС‚РёС‡РЅРѕРµ С‡РёСЃР»Рѕ: "; cin >> decimal;
 	const int n = 32;
 	bool bin[n] = {};
 	int i = 0;
@@ -499,7 +499,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int decimal;
-	cout << "Введите десятичное число: "; cin >> decimal;
+	cout << "Р’РІРµРґРёС‚Рµ РґРµСЃСЏС‚РёС‡РЅРѕРµ С‡РёСЃР»Рѕ: "; cin >> decimal;
 	const int n = 32;
 	bool bin[n] = {};
 	int i = 0;
