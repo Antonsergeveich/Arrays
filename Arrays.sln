@@ -11,7 +11,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary", "Binary\Binary.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Repetitions", "20\20.vcxproj", "{8F74463E-C575-4523-A764-BF4D56DAA431}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Repetition Binary Shift", "Repetition Binary Shift\Repetition Binary Shift.vcxproj", "{93670B75-DAEE-4C48-A64B-D5F3CA6E4F1F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Repetition Binary", "Repetition Binary Shift\Repetition Binary Shift.vcxproj", "{93670B75-DAEE-4C48-A64B-D5F3CA6E4F1F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Repetition Shift", "Repetition Shift\Repetition Shift.vcxproj", "{6F0D36DE-A26E-4A6E-83EC-774627108892}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,14 @@ Global
 		{93670B75-DAEE-4C48-A64B-D5F3CA6E4F1F}.Release|x64.Build.0 = Release|x64
 		{93670B75-DAEE-4C48-A64B-D5F3CA6E4F1F}.Release|x86.ActiveCfg = Release|Win32
 		{93670B75-DAEE-4C48-A64B-D5F3CA6E4F1F}.Release|x86.Build.0 = Release|Win32
+		{6F0D36DE-A26E-4A6E-83EC-774627108892}.Debug|x64.ActiveCfg = Debug|x64
+		{6F0D36DE-A26E-4A6E-83EC-774627108892}.Debug|x64.Build.0 = Debug|x64
+		{6F0D36DE-A26E-4A6E-83EC-774627108892}.Debug|x86.ActiveCfg = Debug|Win32
+		{6F0D36DE-A26E-4A6E-83EC-774627108892}.Debug|x86.Build.0 = Debug|Win32
+		{6F0D36DE-A26E-4A6E-83EC-774627108892}.Release|x64.ActiveCfg = Release|x64
+		{6F0D36DE-A26E-4A6E-83EC-774627108892}.Release|x64.Build.0 = Release|x64
+		{6F0D36DE-A26E-4A6E-83EC-774627108892}.Release|x86.ActiveCfg = Release|Win32
+		{6F0D36DE-A26E-4A6E-83EC-774627108892}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
