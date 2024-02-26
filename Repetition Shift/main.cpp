@@ -31,5 +31,5 @@ void main()
 		}
 		cout << endl;
 		Sleep(1000);
-	}
+	}//
 }
