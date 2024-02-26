@@ -1,4 +1,4 @@
-#include<Windows.h>
+ï»¿#include<Windows.h>
 #include<iostream>
 using namespace std;
 void main()
@@ -8,14 +8,14 @@ void main()
 	int arr[n] = { 0,1,1,2,3,5,8,13,21,34 };
 	for (int i = 0; i < n; i++)
 	{
-		//arr[i] - òåêóùèé ýëåìåíò
-		//arr[i+1] - ñëåäóþùèé ýëåìåíò;
-		//arr[i-1] - ïðåäûäóùèé ýëåìåíò;
+		//arr[i] - Ñ‚ÐµÐºÑƒÑ‰Ð¸Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚
+		//arr[i+1] - ÑÐ»ÐµÐ´ÑƒÑŽÑ‰Ð¸Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚;
+		//arr[i-1] - Ð¿Ñ€ÐµÐ´Ñ‹Ð´ÑƒÑ‰Ð¸Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚;
 		cout << arr[i] << "\t";
 	}
 	cout << endl;
 	int number_of_shifts;
-	cout << "Íà ñêîëüêî ýëåìåíòîâ ñäâèíóòü ìàññèâ: "; cin >> number_of_shifts;
+	cout << "ÐÐ° ÑÐºÐ¾Ð»ÑŒÐºÐ¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² ÑÐ´Ð²Ð¸Ð½ÑƒÑ‚ÑŒ Ð¼Ð°ÑÑÐ¸Ð²: "; cin >> number_of_shifts;
 	for (int i = 0; i < number_of_shifts; i++)
 	{
 		int buffer = arr[0];
