@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 //#define ONE
-#define TWO
+//#define TWO
 void main()
 {
 	setlocale(LC_ALL, "");
@@ -48,7 +48,7 @@ void main()
 		} 
 		arr[n - 1] = buffer;
 		system("CLS");//функция system вызывает любую команду windows
-		//команда CLS очищае окно консоли
+		//команда CLS очищает окно консоли
 	    for (int i = 0; i < n; i++)
 	    {
 		cout << arr[i] << "\t";
@@ -58,7 +58,7 @@ void main()
 		//промежуток времени задаётся в милисекундах
 	}
 #endif // TWO
-
 }
+
 	
 

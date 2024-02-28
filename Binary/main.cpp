@@ -3,6 +3,7 @@
 using namespace std;
 //#define ONE
 //#define TWO
+#define POBITOV_BINARY
 void main()
 {
 	setlocale(LC_ALL, "");
@@ -39,12 +40,23 @@ void main()
 	}
 	cout << endl;
 #endif // TWO
-	for (; decimal; bin[i++] = decimal % 2, decimal /= 2);
+	/*for (; decimal; bin[i++] = decimal % 2, decimal /= 2);
 	for (--i; i >= 0; i--)
 	{
 		cout << bin[i];
 	}
+	cout << endl;*/
+#ifdef POBITOV_BINARY
+	for (; decimal; bin[i++] = decimal & 1, decimal >>= 1);
+	for (--i; i >= 0; i--)
+	{
+		cout << bin[i];
+		if (i % 4 == 0)cout << " ";
+		if (i % 8 == 0)cout << " ";
+	}
 	cout << endl;
+#endif // 
+
 
 }
 	
