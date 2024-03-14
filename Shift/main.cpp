@@ -3,11 +3,12 @@
 using namespace std;
 //#define ONE
 //#define TWO
+#define THREE
 void main()
 {
 	setlocale(LC_ALL, "");
-#ifdef ONE
 	cout << endl;
+#ifdef ONE
 	const int SIZE = 10;
 	int arr[SIZE] = { 0,1,1,2,3,5,8,13,21,34 };
 	int n = 1; // на сколько элементов сдвигаем массив
@@ -58,6 +59,32 @@ void main()
 		//промежуток времени задаётся в милисекундах
 	}
 #endif // TWO
+
+	const int  n = 10;
+	int arr[n] = { 0,1,1,2,3,5,8,13,21,34 };
+	for (int i = 0; i < n; i++)
+	{
+		cout << arr[i] << "\t";
+	}
+	cout << endl;
+	int number_of_shifts;
+	cout << "На сколько элементов сдвинуть массив: "; cin >> number_of_shifts;
+	for (int i = 0; i < number_of_shifts; i++)
+	{
+			int buffer = arr[n - 1];
+		for (int i = n - 2; i >= 0; i--)
+		{
+			arr[i + 1] = arr[i];
+		}
+		arr[0] = buffer;
+		system("CLS");
+		for (int i = 0; i < n; i++)
+		{
+			cout << arr[i] << "\t";
+		}
+		cout << endl;
+		Sleep(1000);
+	}
 }
 
 	
