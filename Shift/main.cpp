@@ -1,32 +1,15 @@
 ﻿#include<Windows.h>
 #include<iostream>
 using namespace std;
-//#define ONE
-//#define TWO
-#define THREE
+
+//#define LEFT
+#define RIGHT
 void main()
 {
 	setlocale(LC_ALL, "");
 	cout << endl;
-#ifdef ONE
-	const int SIZE = 10;
-	int arr[SIZE] = { 0,1,1,2,3,5,8,13,21,34 };
-	int n = 1; // на сколько элементов сдвигаем массив
-	for (int i = 0; i < SIZE; i++)
-	{
-		for (int i = 0; i < SIZE; i++)
-		{
-			cout << arr[i] << "\t";
-		}
-		for (int i = 0; i <= SIZE - 1; i++)
-		{
-			//cout << arr[i] << "\t";
-			arr[i] = arr[(i + n) % SIZE];
-		}
-		cout << endl;
-	}
-#endif // ONE
-#ifdef TWO
+
+#ifdef LEFT
 	const int  n = 10;
 	int arr[n] = { 0,1,1,2,3,5,8,13,21,34 };
 	for (int i = 0; i < n; i++)
@@ -58,8 +41,9 @@ void main()
 	    Sleep(1000);// функция sleep(...) приостанавливает выполнение программы на заданный промежуток времени
 		//промежуток времени задаётся в милисекундах
 	}
-#endif // TWO
+#endif // LEFT
 
+#ifdef RIGHT
 	const int  n = 10;
 	int arr[n] = { 0,1,1,2,3,5,8,13,21,34 };
 	for (int i = 0; i < n; i++)
@@ -71,7 +55,7 @@ void main()
 	cout << "На сколько элементов сдвинуть массив: "; cin >> number_of_shifts;
 	for (int i = 0; i < number_of_shifts; i++)
 	{
-			int buffer = arr[n - 1];
+		int buffer = arr[n - 1];
 		for (int i = n - 2; i >= 0; i--)
 		{
 			arr[i + 1] = arr[i];
@@ -85,6 +69,8 @@ void main()
 		cout << endl;
 		Sleep(1000);
 	}
+#endif // RIGHT
+
 }
 
 	
