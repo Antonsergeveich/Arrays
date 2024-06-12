@@ -1,7 +1,7 @@
 ﻿#include<Windows.h>
 #include<iostream>
 using namespace std;
-
+using std::cout;
 //#define LEFT
 #define RIGHT
 void main()
